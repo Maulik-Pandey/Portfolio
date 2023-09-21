@@ -5,7 +5,7 @@ body {
     color: #40514E;
 }
 .navigation{
-    margin-left: 75%;
+    margin-left: 65%;
 }
 
 h1{
@@ -22,8 +22,18 @@ h2{
     font-weight: normal;
     padding-bottom: 10px;
 }
+.skill-img{
+    width: 40%;
+    display: inline;
+}
+footer{
+    height: 10%;
+    background-color: black;
+    color: #fff;
+}
 h3
 {
+    padding-top: 20px;
     color: #11999E;
     font-family: 'Montserrat', sans-serif;
 }
@@ -33,7 +43,7 @@ p{
 }
 
 hr{
-    border: dotted #EAF6F6 6px;
+    border: dotted #839393 6px;
     border-bottom: none;
     width: 4%;
     margin: 100px auto;
@@ -57,6 +67,19 @@ a:hover{
 .middle-container{
     margin: 100px 0;
 }
+#carousel-project{
+    margin: 10% 10%;
+}
+.card-header{
+    padding: 10px 0 0;
+}
+.card-img{
+    border: 2px solid black;
+}
+.skills{
+    padding-top: 30px;
+}
+
 .intro{
     width: 30%;
     margin: auto;
@@ -69,7 +92,7 @@ a:hover{
     margin: 20px 10px;
 }
 .social-icon:hover{
-    color: #ff4c68;
+    color: #FFFFFF;
     transition-duration: 0.5s;
     transform: translateY(-30%);
 }
