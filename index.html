@@ -16,14 +16,14 @@
 <body>
 <nav class="navbar fixed-top navbar-expand-lg">
     <div class="container-fluid">
-        <a class="navbar-brand" href="index.html">Maulik</a>
+        <a class="navbar-brand" href="#top">Maulik</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
                 aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="navbar-collapse" id="navbarSupportedContent">
             <ul class="navigation navbar-nav  mb-2 mb-lg-0">
-                <li class="nav-item"><a class="nav-link active" href="#about">About</a></li>
+                <li class="nav-item"><a class="nav-link active" aria-current="page" href="#about">About</a></li>
                 <li class="nav-item"><a class="nav-link" href="#project">Projects</a></li>
                 <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
                 <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
@@ -31,7 +31,7 @@
         </div>
     </div>
 </nav>
-<div class="top-container">
+<div class="top-container" id="top">
     <h1>I'm Maulik</h1>
     <h2>a <span class="pro">pro</span>developer</h2>
     <img alt="about-me" src="images/about_me.gif">
@@ -44,9 +44,9 @@
     </div>
     <hr>
     <section id="carousel-project">
-    <div id="project" class="carousel carousel-dark slide">
+    <div id="project" class="carousel carousel-dark slide carousel-fade" data-bs-ride="carousel">
         <div class="carousel-inner">
-            <div class="carousel-item active">
+            <div class="carousel-item active" data-bs-interval="2000">
                 <div class="card text-center">
                     <div class="card-header">
                         <h2>Portfolio</h2>
@@ -59,7 +59,7 @@
                     </div>
                 </div>
             </div>
-            <div class="carousel-item">
+            <div class="carousel-item" data-bs-interval="2000">
                 <div class="card text-center">
                     <div class="card-header">
                         <h2>Tindog</h2>
@@ -113,10 +113,9 @@
 
 
 <div class="bottom-container">
-    <a class="social-icon footer-link" href="https://www.linkedin.com/"><i class="fa-brands fa-linkedin fa-2x"></i></a>
-    <a class="social-icon footer-link" href="https://twitter.com/"><i class="fa-brands fa-twitter fa-2x"></i></a>
-    <a class="social-icon footer-link" href="https://www.instagram.com/"><i
-            class="fa-brands fa-instagram fa-2x"></i></a>
+    <a class="social-icon footer-link" href="https://www.linkedin.com/in/maulikpandey01/"><i class="fa-brands fa-linkedin fa-2x"></i></a>
+    <a class="social-icon footer-link" href="https://github.com/Maulik-Pandey"><i class="fa-brands fa-github fa-2x"></i></a>
+    <a class="social-icon footer-link" href="https://www.instagram.com/__.maulik_/"><i class="fa-brands fa-instagram fa-2x"></i></a>
     <p class="copyright">© 2023 Maulik Pandey. All Rights Reserved</p>
 </div>
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
